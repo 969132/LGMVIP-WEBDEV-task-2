@@ -1,0 +1,76 @@
+body{
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/271687.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:500px;
+    left:0px;
+   
+}
+.heder
+ {
+    height:120px;
+    width:100%; 
+    background-image: url("https://wallpaperaccess.com/full/1316978.jpg");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border-bottom:2px solid #fafdfc;
+    padding-top: 50px;
+    font-size: 100px;
+    color:rgb(156, 143, 214);
+    
+}
+.btn{
+    position:absolute;
+    top:45px;
+    right:20px;
+    
+}
+button{
+    color:rgb(110, 18, 216);
+    height:35px;
+    width:100px;
+
+    background-image: linear-gradient(rgb(236, 240, 22),rgb(209, 68, 186));
+    border-radius: 10px;
+
+    
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:800px;
+
+}
+table{
+    color:rgb(169, 212, 12);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    
+}
+table tr :hover{
+    background-color:rgb(157, 158, 151);
+
+}
+img{
+    clip-path: square();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(233, 233, 19);
+    padding-top: 180px;
+}
